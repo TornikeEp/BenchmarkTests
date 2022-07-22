@@ -74,7 +74,7 @@ public class Main {
     public void reverseWithStringBuilder(Blackhole blackhole) {
         StringBuilder stringBuilder = new StringBuilder("abcd");
         for (int i = 0; i < 1000; i++) {
-            tringBuilder.reverse();
+            stringBuilder.reverse();
         }
         blackhole.consume(stringBuilder);
     }
